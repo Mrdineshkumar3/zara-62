@@ -49,14 +49,16 @@ body{
    
 }
 .glow1:active{
-    border: 2px solid white;
+    transform: scale(0.95);
+    transition: 0.2s;
 }
 .glow2{
     background-color: #ffff;
     border: 2px solid white;
 }
 .glow2:active{
-    border: 2px solid #123458;
+    transform: scale(0.95);
+    transition: 0.2s;
 
 }
 
