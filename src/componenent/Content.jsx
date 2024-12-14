@@ -22,7 +22,7 @@ function Content({albumsData,setSelfalbam,playlist1,setplaylist,songData1,playWi
               daat=songData1.filter((item1,index1)=>item1.folder==item.songdataref)
               setplaylist(daat)
               
-              }} className='p-2 w-[250px] border rounded-[5px] bg-[#eff7ff] hhh cursor-pointer '>
+              }} className='p-2 w-[250px] border rounded-[5px] bg-white hhh cursor-pointer '>
                 <img src={item.image} alt="nothing" className='w-[250px] h-[220px]  rounded-[5px]' />
                 <div className='mt-2'>
                     <h2 className='font-bold text-[15px] text-[#123458]' >{item.neme}</h2>
