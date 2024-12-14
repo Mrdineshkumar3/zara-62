@@ -14,6 +14,7 @@ const usenavigate = useNavigate()
             width="40"
             height="40"
             className="text-[#53a6ff] cursor-pointer "
+             onClick={()=>{usenavigate('')}}
           />
         </div>
         <div className="flex items-center justify-center w-[50%]  max-lg:w-[100%] gap-3">
