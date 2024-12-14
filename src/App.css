@@ -45,9 +45,19 @@ body{
 .glow1{
     background-color: #123458;
     color: #ffff;
+    border: 2px solid #123458;
+   
+}
+.glow1:active{
+    border: 2px solid white;
 }
 .glow2{
     background-color: #ffff;
+    border: 2px solid white;
+}
+.glow2:active{
+    border: 2px solid #123458;
+
 }
 
 
