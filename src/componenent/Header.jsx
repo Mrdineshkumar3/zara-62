@@ -9,13 +9,14 @@ const usenavigate = useNavigate()
     <div>
       <div className="bg-[#D2E0FB] border-[#ffffff6e] border-b-2 flex justify-between items-center min-h-[60px] gap-y-4 p-2 max-lg:flex-col max-lg:items-start ">
         <div className="px-6">
-          <Icon
+        <a href="">  <Icon
             icon="simple-icons:musicbrainz"
             width="40"
             height="40"
             className="text-[#53a6ff] cursor-pointer "
-             onClick={()=>{usenavigate('')}}
-          />
+             
+          /></a>
+         
         </div>
         <div className="flex items-center justify-center w-[50%]  max-lg:w-[100%] gap-3">
           {/* <Icon
